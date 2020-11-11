@@ -18,3 +18,43 @@
 - 3.国家最新纳税标准（系数），属于某一时期的特定固定值，与实例化对象没有关系，考虑如何用static  final修饰定义。
 - 4。实例化研究生类时，可采用运行时通过main方法的参数args一次性赋值，也可采用Scanner类实现运行时交互式输入。
 - 5.根据输入情况，要在程序中做异常处理。
+ ## 3.实验过程：
+- 1.创建接口，并声明。
+   
+               public interface StudentSystem{
+              	public abstract void setTuition(int Tuition);         //学生学费
+	              public abstract void getTuition(int Tuition);}        //查询学生学费
+- 2.创建doctor类接入接口，定义类，并实现接口。
+
+              public class Doctor implements StudentSystem,TeacherSystem
+                      { String Name;
+                     	  String Sex;}
+               public void setSalary(int Salary) 
+                   {this.salary = Salary;}
+- 3.创建测试类，利用Scanner实现运行时输入，也采用一次性赋值。
+
+                  stu.Name = "文波";
+		                stu.Sex= "男";
+	                	stu.Age = 22;
+                  System.out.println("请输入您的年薪：");		
+                  int Salary =s.nextInt();
+                  stu.setSalary(Salary);
+- 4，计算纳税金额，做出程序异常处理。
+
+                     (stu.salary - stu.Tuition)*0.03
+                  catch(Exception e) 
+			                 {	System.out.println("异常数据");	}
+## 4.流程图： 
+## 5.核心代码：
+
+                    public void setSalary(int Salary);  //声明
+                    public void setSalary(int Salary){    }；//实现
+                    public class Doctor implements StudentSystem,TeacherSystem{    }；//接入
+                    try{         }；   catch(Exception e) {    }；//异常处理
+                    if（ ） {        }； else{     }；  //if语句
+                    import java.util.Scanner;   //运行输入语句定义
+                    Scanner s=new Scanner(System.in);   //运行输入语句
+### 6.系统运行结果
+### 7.实验感想
+               
+                     
