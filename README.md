@@ -42,8 +42,9 @@
 - 4，计算纳税金额，做出程序异常处理。
 
                      (stu.salary - stu.Tuition)*0.03
-                  catch(Exception e) 
-			                 {	System.out.println("异常数据");	}
+		    try  {                      };
+                    catch(Exception e) 
+		 	{System.out.println("异常数据");	}
 ## 4.流程图： 
 ## 5.核心代码：
 
@@ -54,7 +55,8 @@
                     if（ ） {        }； else{     }；  //if语句
                     import java.util.Scanner;   //运行输入语句定义
                     Scanner s=new Scanner(System.in);   //运行输入语句
-### 6.系统运行结果
-### 7.实验感想
+## 6.系统运行结果
+https://github.com/fwb623/java4/blob/main/%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png
+## 7.实验感想
                
                      
