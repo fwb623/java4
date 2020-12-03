@@ -46,6 +46,7 @@
                     catch(Exception e) 
 		 	{System.out.println("异常数据");	}
 ## 4.流程图： 
+https://github.com/fwb623/java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
 ## 5.核心代码：
 
                     public void setSalary(int Salary);  //声明
