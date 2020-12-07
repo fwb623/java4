@@ -46,7 +46,9 @@
                     catch(Exception e) 
 		 	{System.out.println("异常数据");	}
 ## 4.流程图： 
-https://github.com/fwb623/java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
+
+ ![](https://github.com/fwb623/java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+ 
 ## 5.核心代码：
 
                     public void setSalary(int Salary);  //声明
@@ -57,7 +59,9 @@ https://github.com/fwb623/java4/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png
                     import java.util.Scanner;   //运行输入语句定义
                     Scanner s=new Scanner(System.in);   //运行输入语句
 ## 6.系统运行结果
-https://github.com/fwb623/java4/blob/main/%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png
+
+ ![](https://github.com/fwb623/java4/blob/main/%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png)
+ 
 ## 7.实验感想
 - 通过本周的学习，起初还懵懵懂懂，做完这次实验我更加清楚了接口的用法，通过定义接口声明接口到后面实现接口，并且在接口类中访问权限一定是public类，我还在接口中运用到了抽象并用了非抽象去实现接口，其次我还懂得了Scanner的用法，来去在运行时输出语句，最后我还运用了try的用法，来处理异常机制。          
                      
